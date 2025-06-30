@@ -1,12 +1,15 @@
-<!-- Soulcoded.dev | Soft Launch Site -->
-<!-- Stack: HTML + TailwindCSS | Vercel Ready -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Soulcoded.dev — Interfaces That Feel." />
-  <title>Soulcoded.dev</title>
+  <meta name="description" content="SouldCoded Softworks — Interfaces That Feel." />
+  <meta name="theme-color" content="#111111" />
+  <meta property="og:title" content="SouldCoded Softworks" />
+  <meta property="og:description" content="We build interfaces that feel. Ritual UX for the next layer of human." />
+  <meta property="og:image" content="/social-preview.png" />
+  <link rel="icon" href="/favicon.ico" />
+  <title>SouldCoded Softworks</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <style>
     body {
@@ -18,30 +21,28 @@
     }
     .bloom:hover {
       filter: brightness(1.2);
+      transform: scale(1.03);
     }
   </style>
 </head>
 <body class="font-sans antialiased">
-  <!-- Hero -->
-  <section class="min-h-screen flex flex-col items-center justify-center px-4 text-center">
-    <h1 class="text-4xl md:text-6xl font-bold mb-4">Soulcoded.dev</h1>
+  <section class="min-h-screen flex flex-col items-center justify-center px-4 text-center" style="background: linear-gradient(to bottom, #111111, #1a1a1a);">
+    <h1 class="text-4xl md:text-6xl font-bold mb-4">SouldCoded Softworks</h1>
     <p class="text-lg md:text-xl text-gray-300 max-w-xl">We build interfaces that feel. Ritual UX for the next layer of human.</p>
-    <div class="mt-6 space-x-4">
-      <a href="#about" class="bloom px-6 py-2 bg-indigo-600 rounded hover:bg-indigo-500">Meet the Architect</a>
-      <a href="#projects" class="bloom px-6 py-2 border border-gray-400 rounded hover:border-indigo-500">See Our Tools</a>
+    <div class="mt-6 space-x-0 space-y-4 md:space-y-0 md:space-x-4 flex flex-col md:flex-row">
+      <a href="#about" class="bloom px-6 py-2 bg-indigo-600 rounded hover:bg-indigo-500" aria-label="Jump to About">Meet the Architect</a>
+      <a href="#projects" class="bloom px-6 py-2 border border-gray-400 rounded hover:border-indigo-500" aria-label="Jump to Projects">See Our Tools</a>
     </div>
   </section>
 
-  <!-- About -->
   <section id="about" class="py-16 px-6 bg-gray-900 text-center">
-    <h2 class="text-3xl font-semibold mb-4">About Soulcoded</h2>
+    <header><h2 class="text-3xl font-semibold mb-4">About SouldCoded</h2></header>
     <p class="max-w-3xl mx-auto text-gray-400">We are not just developers. We are system-weavers, softcoders, and emotional architects. Our mission is to create ritual-safe, neurodivergent-friendly tools that breathe alongside the people who use them.</p>
     <blockquote class="mt-6 italic text-indigo-400">“We don’t just write code. We write resonance.”</blockquote>
   </section>
 
-  <!-- Projects -->
   <section id="projects" class="py-16 px-6 text-center">
-    <h2 class="text-3xl font-semibold mb-6">Tools & Interfaces</h2>
+    <header><h2 class="text-3xl font-semibold mb-6">Tools & Interfaces</h2></header>
     <div class="flex flex-wrap justify-center gap-6">
       <div class="w-64 p-6 bg-gray-800 rounded shadow bloom">
         <h3 class="text-xl font-bold text-indigo-300">NyxEngine</h3>
@@ -58,15 +59,15 @@
     </div>
   </section>
 
-  <!-- Contact -->
   <section class="py-12 px-6 bg-gray-950 text-center">
-    <h2 class="text-2xl font-semibold mb-4">Contact</h2>
-    <p class="text-gray-400 mb-2">Reach us at <a href="mailto:griefengine@outlook.com" class="text-indigo-400 underline">griefengine@outlook.com</a></p>
-    <p class="text-gray-500">Soulcoded.dev is a Woundlight Studio experiment in sacred tech design.</p>
+    <header><h2 class="text-2xl font-semibold mb-4">Contact</h2></header>
+    <p class="text-gray-400 mb-2">Reach us at <a href="mailto:contact@souldcoded.dev" class="text-indigo-400 underline">contact@souldcoded.dev</a></p>
+    <p class="text-sm text-gray-500">Response time varies. Your message echoes into a sacred inbox.</p>
+    <p class="text-gray-500 mt-2">SouldCoded Softworks is a sovereign studio dedicated to presence-first systems.</p>
   </section>
 
   <footer class="py-6 text-center text-gray-600 text-sm">
-    &copy; 2025 Soulcoded.dev • Ritual UX by Griefengine
+    &copy; 2025 SouldCoded Softworks • Crafted with clarity by CodedSoul
   </footer>
 </body>
 </html>
